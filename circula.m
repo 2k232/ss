@@ -1,0 +1,41 @@
+clc;
+clear all;
+close all;
+xn=input('Enter the x(n) sequence');
+hn=input('Enter the h(n) sequence');
+L=length(xn);
+M=length(hn);
+N=max(L,M);
+if L>M
+xn1=xn;
+hn1=[hn,zeros(1,L-M)];
+else L<M
+xn1=[xn,zeros(1,M-L)];
+hn1=hn;
+end
+Xk=fft(xn1);
+Hk=fft(hn1);
+Yk=Xk.*Hk;
+yn=ifft(Yk);
+disp(yn);
+L=length(xn1);
+n=0:1:L-1;
+subplot(2,2,1);
+stem(n,xn1);
+xlabel('Time index');
+ylabel('Amplitude');
+title('Input x(n)sequence');
+M=length(hn1);
+n1=0:1:M-1;
+subplot(2,2,2);
+stem(n1,hn1);
+xlabel('Time index');
+ylabel('Amplitude');
+title('Input h(n)sequence');
+N=length(yn);
+n2=0:1:N-1;
+subplot(2,2,3);
+stem(n2,yn);
+xlabel('Time index');
+ylabel('Amplitude');
+title('Output y(n) sequence');
