@@ -1,0 +1,41 @@
+the number of packets is 5
+the packet sent is:1
+ack no:2
+the packet sent is:2
+timeout, resend
+the packet sent is:2
+timeout, resend
+the packet sent is:2
+no ack no:3
+the packet sent is:2
+timeout, resend
+the packet sent is:2
+timeout, resend
+the packet sent is:2
+timeout, resend
+the packet sent is:2
+timeout, resend
+the packet sent is:2
+ack no:3
+the packet sent is:3
+ack no:4
+the packet sent is:4
+ack no:5
+the packet sent is:5
+no ack no:6
+the packet sent is:5
+no ack no:6
+the packet sent is:5
+no ack no:6
+the packet sent is:5
+timeout, resend
+the packet sent is:5
+no ack no:6
+the packet sent is:5
+timeout, resend
+the packet sent is:5
+no ack no:6
+the packet sent is:5
+timeout, resend
+the packet sent is:5
+ack no:6
