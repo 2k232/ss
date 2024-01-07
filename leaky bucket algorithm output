@@ -1,0 +1,30 @@
+Enter the bucket size and rate (in Mb):30
+Enter the bucket rate (in Mb):10
+Enter the number of lines:3
+Enter input packet rate of 3 lines:
+5
+20
+15
+enter number of itrerations
+2
+iteration 1
+input from line 1 with rate 5 is added to the bucket
+current bucket size in (Mb) is 5
+input from line 2 with rate 20 is added to the bucket
+current bucket size in (Mb) is 25
+input from line 3 with rate 15 is thrown out of the bucket
+current bucket size in (Mb) is 25
+..........................
+packet sent to output line at rate 10
+current bucket size in (Mb) is 15
+..........................
+iteration 2
+input from line 1 with rate 5 is added to the bucket
+current bucket size in (Mb) is 20
+input from line 2 with rate 20 is thrown out of the bucket
+current bucket size in (Mb) is 20
+input from line 3 with rate 15 is thrown out of the bucket
+current bucket size in (Mb) is 20
+..........................
+packet sent to output line at rate 10
+current bucket size in (Mb) is 10
