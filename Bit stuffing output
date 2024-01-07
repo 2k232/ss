@@ -1,0 +1,7 @@
+Enter the length of bit stream:10
+Enter the bit stream:1 1 1 1 1 1 1 1 1 1
+The stuffed stream is:0111111011111011111001111110
+--------------------------------
+Enter the length of bit stream:10
+Enter the bit stream:1 0 1 0 1 0 1 0 1 0
+The stuffed stream is:01111110101010101001111110
