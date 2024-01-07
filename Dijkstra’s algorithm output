@@ -1,0 +1,18 @@
+Enter the number of nodes:5
+Enter the cost of the link 1 to 2:7222
+Enter the cost of the link 1 to 3:9999
+Enter the cost of the link 1 to 4:9999
+Enter the cost of the link 1 to 5:1
+Enter the cost of the link 2 to 3:1
+Enter the cost of the link 2 to 4:9999
+Enter the cost of the link 2 to 5:8
+Enter the cost of the link 3 to 4:2
+Enter the cost of the link 3 to 5:9999
+Enter the cost of the link 4 to 5:2
+Enter the source node:2
+Enter destination node:5
+cost of path between src and dst is=5
+Shortest path is:
+2 to 3
+3 to 4
+4 to 5
