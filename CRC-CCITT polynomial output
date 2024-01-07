@@ -1,0 +1,14 @@
+Enter the length of the message frame:10
+Enter the message bits:1 1 1 1 1 1 1 1 1 1
+Enter the length of generator polynomial:4
+Enter polynomial bits:1 1 1 1
+The transmitted frame is:1111111111110
+Enter the received message:1 1 1 1 1 1 1 1 1 1 1 1 0
+The received message is correct
+Enter the length of the message frame:10
+Enter the message bits:1 1 1 1 1 1 1 1 1 1
+Enter the length of generator polynomial:4
+Enter polynomial bits:1 1 1 1
+The transmitted frame is:1111111111110
+Enter the received message:1 1 1 1 1 1 1 1 1 0 1 1 0
+The received message has an error.
