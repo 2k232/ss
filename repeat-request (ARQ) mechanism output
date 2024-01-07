@@ -1,0 +1,15 @@
+enter window size
+5
+frame 1 has been transmitted
+frame 2 has been transmitted
+frame 3 has been transmitted
+frame 4 has been transmitted
+frame 5 has been transmitted
+last ack receiced=3
+frame 3 has been transmitted
+frame 4 has been transmitted
+frame 5 has been transmitted
+last ack receiced=4
+frame 4 has been transmitted
+frame 5 has been transmitted
+last ack receiced=6
