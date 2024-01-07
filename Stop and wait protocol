@@ -1,0 +1,61 @@
+# include <stdio.h>
+
+# include <stdlib.h>
+
+main()
+
+{
+
+int i,n,r,a;
+
+n=5;
+
+printf("the number of packets are %d\n",n);
+
+for(i=1;i<=n;i++)
+
+{
+
+printf("the packet sent is:%d\n",i);
+
+r=rand()%2;
+
+if(r==1)
+
+{
+
+a=rand()%2;
+
+if(a==1)
+
+{
+
+printf("ack no:%d\n",i+1);
+
+}
+
+else
+
+{
+
+printf("no ack no:%d\n",i+1);
+
+i--;
+
+}
+
+}
+
+else
+
+{
+
+printf("timeout, resend\n");
+
+i--;
+
+}
+
+}
+
+}
