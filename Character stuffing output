@@ -1,0 +1,21 @@
+Enter data link character:
+e
+Enter start character:
+s
+Enter end character:
+d
+Enter the string:
+good day
+The stuffed string is:
+esgoodd ddayed
+--------------------------------
+Enter data link character:
+e
+Enter start character:
+s
+Enter end character:
+d
+Enter the string:
+morning
+The stuffed string is:
+esmorninged
